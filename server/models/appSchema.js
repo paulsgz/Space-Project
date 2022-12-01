@@ -8,10 +8,7 @@ const PostSchema = new Schema({
     title: String,
     description: String,
     image: String,
-    comments: [{
-        type: Schema.Types.ObjectId,
-        ref: 'Comments'
-    }]
+    rating: Number
 })
 
 module.exports = mongoose.model('Post', PostSchema);

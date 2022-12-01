@@ -12,7 +12,8 @@ const upload = multer({storage: storage});
 
 
 router.use(cors({
-    origin:"http://localhost:3000",
+    origin:"https://space-project31.herokuapp.com",
+    credentials:true,   
 }))
 router.get('/', (req,res) => {
     const posts = Post.find({}, function(err,posts) {
@@ -31,21 +32,9 @@ router.post('/create',upload.array('image'), async (req,res) => {
         title: req.body.title,
         description: req.body.description,
         image: paths[0],
+        rating:req.body.rating
         })
-        console.log(post);
         await post.save();
-})
-
-router.post('/:id/reviews', async(req,res) => {
-    const { id }  = req.params;
-    const post = await Post.find({id})
-   console.log((post))
-})
-
-router.put('/comments/:id', async (req,res) => {
-    const { id }  = req.params;
-    const post = Post[id];
-    console.log(post);
 })
 
 router.delete('/:id',async(req,res) => {

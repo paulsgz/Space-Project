@@ -17,21 +17,20 @@ db.once("open", () => {
 });
 
 const seedDB = async() => {
-    await Post.deleteMany({});
     const url = 'https://images-api.nasa.gov/search?q=Night Sky';
     const response = await axios.get(url);
     for(let i=0;i<25;i++){
         const post = new Post({
             name: 'Nasa',
-            userPic:response.data.collection.items[3].links[0].href,
+            userPic: response.data.collection.items[24].links[0].href,
             title: response.data.collection.items[i].data[0].title,
             description: response.data.collection.items[i].data[0].description.slice(0,100) + "...",
             image: response.data.collection.items[i].links[0].href,
+            rating:0,
         })
         await post.save();
         console.log(post);
     }
-    
 }
 
 seedDB().then( () =>{
