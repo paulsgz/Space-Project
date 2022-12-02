@@ -28,4 +28,4 @@ and verify the owner of the image or post.
 <img src="https://github.com/paulsgz/Space-Project/blob/master/DemoImage.png?raw=true">
 <img src="https://github.com/paulsgz/Space-Project/blob/master/DemoImage3.png?raw=true">
 <img src="https://github.com/paulsgz/Space-Project/blob/master/mobilePicture.png?raw=true" align="left">
-<img src="https://github.com/paulsgz/Space-Project/blob/master/mobilePicture2.png?raw=true">
+<img src="https://github.com/paulsgz/Space-Project/blob/master/mobilePicture2.png?raw=true" align="left">
