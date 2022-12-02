@@ -24,8 +24,8 @@ and verify the owner of the image or post.
 </ul>
 
 <h3>Demo Images</h3>
-<img src="https://github.com/paulsgz/Space-Project/blob/master/DemoImage2.png?raw=true">
-<img src="https://github.com/paulsgz/Space-Project/blob/master/DemoImage.png?raw=true">
-<img src="https://github.com/paulsgz/Space-Project/blob/master/DemoImage3.png?raw=true">
-<img src="https://github.com/paulsgz/Space-Project/blob/master/mobilePicture.png?raw=true" align="center">
+<img src="https://github.com/paulsgz/Space-Project/blob/master/Demo%20Images/DemoImage2.png?raw=true">
+<img src="https://github.com/paulsgz/Space-Project/blob/master/Demo%20Images/DemoImage.png?raw=true">
+<img src="https://github.com/paulsgz/Space-Project/blob/master/Demo%20Images/DemoImage3.png?raw=true">
+<img src="https://github.com/paulsgz/Space-Project/blob/master/Demo%20Images/mobilePicture.png?raw=true">
 
