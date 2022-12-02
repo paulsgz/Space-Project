@@ -25,3 +25,6 @@ yarn-error.log*
 node_modules
 .env
 .eslintcache
+.jpg
+.mp3
+.png
