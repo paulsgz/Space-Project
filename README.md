@@ -1,5 +1,4 @@
 <h1>Space Project </h1>
-<h4>https://space-project31.herokuapp.com/</h4>
 
 Space Project is web application for sharing and exploring different astronomical experiences. Users can view different images from different people about the
 sky, space, galaxy and anything related to astronomy. Users can also share their own experiences by logging in using their google account as a way to authenticate
